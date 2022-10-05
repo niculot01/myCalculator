@@ -1,0 +1,139 @@
+.mycalc{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.all-btn{
+    display: flex;
+}
+
+.all-btn-numbers{
+    display: flex;
+    width: 210px; 
+    flex-wrap: wrap;
+}
+
+.all-btn-signs{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button{
+    background-color: rgb(106, 154, 199);
+    border: none;
+    margin: 10px;
+    color: rgb(8, 59, 59);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-btn-signs button{
+    background-color: rgb(141, 124, 158);
+    border: none;
+    margin: 10px;
+    color: rgb(8, 59, 59);
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+}
+.all-btn-signs button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px coral;
+}
+
+.all-btn-numbers button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(90, 29, 29);
+}
+
+.btn-extra{
+    display: flex;
+}
+
+.btn-extra button{
+    background-color: rgb(158, 149, 149);
+    color: white;
+}
+
+.btn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(90, 29, 29);
+
+}
+
+.btn-clear-equals{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.btn-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+#clear{
+    color: blue;
+    background-color: black;
+}
+
+#equals{
+    color: blue;
+    background-color: black;
+}
+
+#clear:hover ,
+#equals:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid gray;
+}
+
+.history{
+    border: 1px solid black;
+    display: flex;
+    padding-left: 10px;
+    margin: 10px 0px;
+    width: 250px;
+    height: 300px;
+    align-items: baseline;
+    background-color: bisque;
+    font-weight: 300;
+    font-size: 200;
+}
